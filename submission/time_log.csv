@@ -1,1 +1,3 @@
 step,images,minutes,note
+gold_manual,4,22,"Gán tay độc lập 4 ảnh gold trên CVAT (không dùng AI), rà kỹ guideline v1.0 và đánh dấu can_review các ca biên."
+batch_review,24,67,"Duyệt và chỉnh sửa 24 ảnh lô trên nền AI pre-label (YOLO26m + YOLOE-s) trên CVAT, xử lý bẫy, gộp vật thể < 20px thành ignore_region và rà soát lại sau Rework."
